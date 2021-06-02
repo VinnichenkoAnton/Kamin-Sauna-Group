@@ -1,0 +1,471 @@
+@media(max-width: 1599px) {
+    .wrapper_left {
+        padding-right: 30px;
+    }
+    .wrapper_right {
+        padding-left: 30px;
+    }
+    .wrapper_center {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mainscreen:before,
+    .mainscreen:after {
+        display: none;
+    }
+    .mainscreen__video {
+        left: 0;
+    }
+    .box__wrapper .box__text {
+        margin-bottom: 10px;
+    }
+    .calculation__content .tabsbox {
+        padding-right: 90px;
+    }
+    .group__block {
+        margin-right: 40px;
+    }
+    .group__photos {
+        max-width: 650px;
+    }
+    .gallery__arrow_left {
+        right: calc(14% + 60px);
+    }
+    .gallery__arrow_right {
+        right: 14%;
+    }
+    .warranty__block {
+        padding-left: 40px;
+        flex-wrap: wrap;
+    }
+    .warranty__photo {
+        width: 65%;
+    }
+    .warranty__info {
+        width: 100%;
+    }
+    .warranty__info-wrap {
+        max-width: 90%;
+    }
+    .offer__info {
+        max-width: 612px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .choose__box>.box__wrapper {
+        justify-content: center;
+        .box__call {
+            text-align: center;
+        }
+        .box__social {
+            justify-content: center;
+        }
+    }
+    .calculation__content .tabsbox {
+        padding: 20px 45px;
+    }
+    .calculation__textblock {
+        margin-bottom: 5px;
+    }
+    .group__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .group__photos {
+        margin-bottom: 15px;
+        order: 1;
+    }
+    .group__text {
+        order: 2;
+        .btn {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .gallery__arrow {
+        top: -70px
+    }
+    .resp__wrapper {
+        margin-left: 40px;
+    }
+    .resp__text {
+        max-width: 538px;
+    }
+    .price__box {
+        max-width: 524px;
+    }
+    .gift__item {
+        width: 232px;
+    }
+    .offer__block {
+        padding-left: 40px;
+    }
+    .offer__info {
+        padding-top: 0;
+        max-width: 560px;
+        .choose__box {
+            padding: 10px 10px;
+        }
+    }
+    .offer__img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .footer__block {
+        padding-top: 14px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 992px) {
+    .wrapper_left {
+        padding: 0 20px;
+    }
+    .wrapper_right {
+        padding: 0 20px;
+    }
+    .choose__wrapper {
+        padding-left: 40px;
+    }
+    .choose__text .choose__box {
+        padding: 5px 0;
+    }
+    .calculation__item .btn {
+        width: 168px;
+    }
+    .tabsbox {
+        justify-content: center;
+    }
+    .gallery__arrow {
+        top: -85px;
+    }
+    .resp__wrapper {
+        margin-left: 0px;
+    }
+    .resp__text {
+        max-width: 418px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .price__box {
+        max-width: 370px;
+        padding-top: 30px;
+    }
+    .warranty__title {
+        text-align: center;
+    }
+    .warranty .dashtext {
+        display: none;
+    }
+    .warranty__block {
+        justify-content: center;
+    }
+    .warranty__photo {
+        width: 80%;
+    }
+    .gift__block {
+        justify-content: space-around;
+    }
+    .gift__item {
+        width: 250px;
+    }
+    .offer__block {
+        padding-left: 0px;
+    }
+    .offer__info {
+        max-width: 430px;
+    }
+}
+
+@media(max-width: 768px) {
+    #calc,
+    #free,
+    #order,
+    #price,
+    #select {
+        padding: 15px 40px 15px;
+    }
+    .modal:after,
+    .modal:before {
+        display: none;
+    }
+    .modal__form {
+        justify-content: center;
+    }
+    .mainscreen {
+        min-height: 940px;
+    }
+    .mainscreen__wrapper::after {
+        left: 290px;
+    }
+    .choose__wrapper {
+        padding-left: 20px;
+    }
+    .choose__text {
+        margin-left: 14px;
+    }
+    .calculation__tabs {
+        display: block;
+    }
+    .calculation__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .calculation__photos {
+        margin: 0 auto;
+    }
+    .calculation__content .tabsbox__call {
+        margin-right: 12px;
+    }
+    .calculation__item .btn {
+        width: 264px;
+    }
+    .gallery__arrow_right {
+        right: 0;
+    }
+    .gallery__arrow_left {
+        right: calc(0% + 60px);
+    }
+    .resp__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .resp__photo {
+        width: 100%;
+    }
+    .resp__text {
+        max-width: 100%;
+    }
+    .price__text .price__paragr {
+        margin-top: 13px;
+        margin-bottom: 55px;
+    }
+    .price__box {
+        max-width: 302px;
+    }
+    .offer__info {
+        margin-left: 10px;
+        max-width: 340px;
+    }
+}
+
+@media(max-width: 576px) {
+    #calc,
+    #free,
+    #order,
+    #price,
+    #select {
+        max-width: 300px;
+        min-height: 320px;
+        padding: 15px 14px 15px;
+    }
+    .modal__header {
+        text-align: center;
+    }
+    .modal .fancybox-close-small {
+        padding: 0;
+        right: 10px;
+        top: 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .subtitle {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .dashtext__text {
+        line-height: 28px;
+    }
+    .dashlist__item {
+        line-height: 22px;
+    }
+    .mainscreen {
+        background-size: 50% 100%, 50% 100%;
+    }
+    .mainscreen__wrapper {
+        margin-top: 26px;
+    }
+    .mainscreen__wrapper::after {
+        display: none;
+    }
+    .mainscreen__main {
+        font-size: 52px;
+    }
+    .mainscreen__header {
+        flex-direction: column;
+    }
+    .mainscreen__social {
+        justify-content: space-around;
+    }
+    .mainscreen__video {
+        top: 149px;
+    }
+    .mainscreen__btns {
+        justify-content: center;
+        .btn_mod {
+            margin-top: 10px;
+        }
+    }
+    .choose__title {
+        margin-top: 50px;
+    }
+    .choose__photo {
+        display: none;
+    }
+    .choose__text {
+        width: 100%;
+        margin-left: 0;
+    }
+    .choose__box {
+        .box__item:first-child {
+            margin-right: 8px;
+        }
+    }
+    .calculation {
+        padding-top: 50px;
+        .dashtext__dash {
+            display: none;
+        }
+        .dashtext__text {
+            text-align: center;
+        }
+    }
+    .calculation__item {
+        margin-bottom: 10px;
+        .btn {
+            width: 136px;
+            font-size: 14px;
+        }
+    }
+    .calculation__content {
+        margin-left: 0;
+    }
+    .calculation__textblock {
+        margin-left: 0;
+    }
+    .group {
+        padding-top: 50px;
+        .dashtext {
+            justify-content: center;
+        }
+        .dashtext__dash {
+            display: none;
+        }
+        .dashtext__text {
+            text-align: center;
+        }
+    }
+    .group__block {
+        margin-right: 0;
+    }
+    .gallery {
+        .dashtext {
+            justify-content: center;
+        }
+        .dashtext__dash {
+            display: none;
+        }
+        .dashtext__text {
+            text-align: center;
+        }
+    }
+    .gallery__title {
+        margin-top: 50px;
+    }
+    .gallery__arrow {
+        top: 130px;
+    }
+    .gallery__arrow_right {
+        right: -10px;
+    }
+    .gallery__arrow_left {
+        left: -10px;
+        z-index: 1;
+    }
+    .gallery__dots .dot .slick-active button {
+        width: 35px;
+        margin: 0 6px;
+    }
+    .gallery__dots .dot li button {
+        margin: 0px 7px;
+        width: 19px;
+    }
+    .resp__wrapper {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .price {
+        background-size: 62% 100%, 49% 100%;
+    }
+    .price__photo {
+        top: 0px;
+        right: 23px;
+        width: 51%;
+    }
+    .price__box {
+        padding-top: 0;
+    }
+    .price__lets {
+        color: #fff;
+        font-size: 22px;
+    }
+    .warranty__title {
+        margin-top: 50px;
+    }
+    .warranty__block {
+        padding-left: 0;
+    }
+    .warranty__photo {
+        width: 88%;
+    }
+    .warranty__info {
+        text-align: center;
+        margin: 0 15px;
+    }
+    .warranty__info-wrap {
+        max-width: 100%;
+    }
+    .warranty__tabsbox {
+        padding: 20px 0 20px 0px;
+    }
+    .warranty__descr_second {
+        margin-bottom: 30px;
+    }
+    .gift {
+        .dashtext {
+            justify-content: center;
+        }
+        .dashtext__dash {
+            display: none;
+        }
+        .dashtext__text {
+            text-align: center;
+        }
+    }
+    .gift__title {
+        margin-top: 50px;
+    }
+    .gift__item {
+        margin-bottom: 15px;
+    }
+    .offer__block {
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .offer__info {
+        margin-left: 0;
+    }
+    .offer__photo {
+        display: none;
+    }
+    .footer__contact {
+        margin: 14px auto 14px;
+        flex-direction: column;
+    }
+}

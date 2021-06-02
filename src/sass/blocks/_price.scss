@@ -1,0 +1,84 @@
+.price {
+    min-height: 977px;
+    background: linear-gradient( 226.02deg, #07080d 1.93%, #2d3540 97.49%) no-repeat, linear-gradient( 334.03deg, #1e2632 0, #464e5a 90.4%) no-repeat;
+    background-position: 0 95px, 100% 203px;
+    background-size: 62% 56%, 49% 79%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &__photo {
+        position: absolute;
+        top: 0;
+        right: 78px;
+        width: 40%;
+        z-index: -1;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__text {
+        padding-top: 188px;
+    }
+    &__title {
+        color: #FFFFFF;
+        z-index: 11;
+    }
+    &__descr {
+        margin-top: 26px;
+        max-width: 558px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__paragr {
+        max-width: 558px;
+        margin-top: 40px;
+        margin-bottom: 86px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__box {
+        max-width: 558px;
+        padding-top: 59px;
+    }
+    &__lets {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #1E2632;
+    }
+    &__boxwrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon {
+        &:first-child {
+            margin-right: 50px;
+        }
+        & a {
+            text-transform: uppercase;
+            color: #77828C;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 28px;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+            }
+        }
+    }
+}

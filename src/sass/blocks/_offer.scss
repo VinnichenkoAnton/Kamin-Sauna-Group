@@ -1,0 +1,38 @@
+.offer {
+    &__block {
+        padding-top: 108px;
+        padding-left: 80px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__photo {
+        position: relative;
+        width: 40%;
+    }
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    &__info {
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        max-width: 850px;
+    }
+    &__descr {
+        margin-top: 23px;
+        margin-bottom: 34px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #1E2632;
+    }
+    &__paragr {
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+}

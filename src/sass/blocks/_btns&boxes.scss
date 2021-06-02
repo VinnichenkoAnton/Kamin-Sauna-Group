@@ -1,0 +1,104 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 60px;
+    background: $main-color;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &:hover {
+        color: $main-color;
+        border: 1px solid $main-color;
+        background: transparent;
+        text-decoration: none;
+    }
+    &_mod {
+        background: transparent;
+        border: 1px solid #FFFFFF;
+        &>svg {
+            margin-left: 10px;
+        }
+        &:hover {
+            background: $main-color;
+            color: #FFFFFF;
+            svg {
+                fill: #FFFFFF;
+            }
+        }
+    }
+    &_white {
+        background: #EEF2F7;
+        color: #AEB5BF;
+        border: 1px solid #FFFFFF;
+        &:hover {
+            color: $main-color;
+            border: 1px solid $main-color;
+            background: transparent;
+            text-decoration: none;
+        }
+    }
+}
+
+.box {
+    background: #1E2632;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__call {
+        max-width: 361px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    &__social {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__item {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #77828C;
+        &:first-child {
+            margin-right: 50px;
+        }
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+        &>svg {
+            margin-left: 10px;
+        }
+    }
+}
+
+.tabsbox {
+    width: 100%;
+    padding-left: 98px;
+    padding-right: 388px;
+    background: #1E2632;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &__call {
+        max-width: 361px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

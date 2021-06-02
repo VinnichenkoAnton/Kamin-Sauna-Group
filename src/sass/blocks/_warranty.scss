@@ -1,0 +1,47 @@
+.warranty {
+    &__title {
+        margin-top: 107px;
+    }
+    &__block {
+        margin-top: 37px;
+        padding-left: 107px;
+        display: flex;
+    }
+    &__photo {
+        width: 37%;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__info {
+        width: 63%;
+        margin-left: 10px;
+    }
+    &__info-wrap {
+        max-width: 754px;
+    }
+    &__descr {
+        margin-bottom: 37px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #1E2632;
+        &_second {
+            margin-top: 39px;
+            margin-bottom: 68px;
+        }
+    }
+    &__tabsbox {
+        width: 100%;
+        padding: 35px 0 35px 100px;
+    }
+    &__call {
+        max-width: none;
+        color: $main-color;
+        span {
+            color: #ffffff;
+        }
+    }
+}
